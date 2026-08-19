@@ -1,0 +1,6 @@
+{
+    "duration_minutes": 10,
+    "max_attempts": 5,
+    "questions_per_exam": 3,
+    "admin_password": "@Admin1234"
+}

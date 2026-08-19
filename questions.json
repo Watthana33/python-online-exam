@@ -1,0 +1,1508 @@
+{
+    "set_1": [
+        {
+            "question": "คำสั่งใดใช้สร้างตัวแปรเก็บข้อความ 'Hello'?",
+            "options": [
+                "x = 'Hello'",
+                "string x = 'Hello'",
+                "var x = 'Hello'",
+                "let x = 'Hello'"
+            ],
+            "answer": "x = 'Hello'"
+        },
+        {
+            "question": "กฏการตั้งชื่อตัวแปรข้อใดถูกต้อง?",
+            "options": [
+                "my_var = 10",
+                "my-var = 10",
+                "10myvar = 10",
+                "my var = 10"
+            ],
+            "answer": "my_var = 10"
+        },
+        {
+            "question": "ข้อใดตั้งชื่อตัวแปรผิดกฏของภาษา Python?",
+            "options": [
+                "1myvar = 10",
+                "_myvar = 10",
+                "myVar = 10",
+                "my_var1 = 10"
+            ],
+            "answer": "1myvar = 10"
+        },
+        {
+            "question": "ประเภทข้อมูล (Data Type) ของตัวเลขจำนวนเต็มคือข้อใด?",
+            "options": [
+                "int",
+                "float",
+                "str",
+                "bool"
+            ],
+            "answer": "int"
+        },
+        {
+            "question": "ประเภทข้อมูลใดใช้เก็บตัวอักษรหรือข้อความ?",
+            "options": [
+                "str",
+                "char",
+                "text",
+                "string"
+            ],
+            "answer": "str"
+        },
+        {
+            "question": "คำสั่งใดใช้ตรวจสอบประเภทข้อมูล (Data Type) ของตัวแปร?",
+            "options": [
+                "type()",
+                "check()",
+                "typeof()",
+                "datatype()"
+            ],
+            "answer": "type()"
+        },
+        {
+            "question": "ข้อใดคือประเภทข้อมูลแบบทศนิยม (Float)?",
+            "options": [
+                "3.14",
+                "3",
+                "'3.14'",
+                "True"
+            ],
+            "answer": "3.14"
+        },
+        {
+            "question": "ตัวแปรใน Python สามารถเปลี่ยนประเภทข้อมูลระหว่างการทำงานได้หรือไม่?",
+            "options": [
+                "ได้ (Dynamic Typing)",
+                "ไม่ได้ ต้องกำหนดตั้งแต่เริ่ม",
+                "ได้เฉพาะตัวเลข",
+                "ได้เฉพาะข้อความ"
+            ],
+            "answer": "ได้ (Dynamic Typing)"
+        },
+        {
+            "question": "ตัวอักษรและข้อความใน Python ต้องถูกครอบด้วยเครื่องหมายใด?",
+            "options": [
+                "\"\" หรือ ''",
+                "()",
+                "[]",
+                "{}"
+            ],
+            "answer": "\"\" หรือ ''"
+        },
+        {
+            "question": "คำสั่ง print() ทำหน้าที่อะไร?",
+            "options": [
+                "แสดงผลข้อมูลออกทางหน้าจอ",
+                "รับค่าจากคีย์บอร์ด",
+                "หยุดการทำงานของโปรแกรม",
+                "คำนวณตัวเลข"
+            ],
+            "answer": "แสดงผลข้อมูลออกทางหน้าจอ"
+        },
+        {
+            "question": "ข้อใดคือผลลัพธ์ของ int(3.9)?",
+            "options": [
+                "3",
+                "4",
+                "3.9",
+                "Error"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "ข้อใดคือผลลัพธ์ของ float(5)?",
+            "options": [
+                "5.0",
+                "5",
+                "'5'",
+                "5.5"
+            ],
+            "answer": "5.0"
+        },
+        {
+            "question": "ข้อใดคือการแปลงตัวเลข 10 เป็นประเภทข้อความ (String)?",
+            "options": [
+                "str(10)",
+                "int(10)",
+                "text(10)",
+                "char(10)"
+            ],
+            "answer": "str(10)"
+        },
+        {
+            "question": "หากเรานำ '5' + '5' ใน Python จะได้ผลลัพธ์คืออะไร?",
+            "options": [
+                "'55'",
+                "10",
+                "55",
+                "Error"
+            ],
+            "answer": "'55'"
+        },
+        {
+            "question": "คำสั่งใดใช้แปลงข้อความ '100' เป็นตัวเลขจำนวนเต็ม?",
+            "options": [
+                "int('100')",
+                "float('100')",
+                "number('100')",
+                "str('100')"
+            ],
+            "answer": "int('100')"
+        },
+        {
+            "question": "ชนิดข้อมูลของ 5j ใน Python คือประเภทใด?",
+            "options": [
+                "complex",
+                "float",
+                "int",
+                "str"
+            ],
+            "answer": "complex"
+        },
+        {
+            "question": "ค่าข้อมูลแบบ Boolean มีกี่ค่า และคืออะไรบ้าง?",
+            "options": [
+                "2 ค่า คือ True และ False",
+                "2 ค่า คือ 0 และ 1",
+                "3 ค่า คือ True, False และ None",
+                "ไม่มีข้อถูก"
+            ],
+            "answer": "2 ค่า คือ True และ False"
+        },
+        {
+            "question": "ผลลัพธ์ของการเปรียบเทียบ 10 > 9 คืออะไร?",
+            "options": [
+                "True",
+                "False",
+                "1",
+                "0"
+            ],
+            "answer": "True"
+        },
+        {
+            "question": "ผลลัพธ์ของการเปรียบเทียบ 10 == 10 คืออะไร?",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "No"
+            ],
+            "answer": "True"
+        },
+        {
+            "question": "เครื่องหมายใดใช้สำหรับการเปรียบเทียบว่า 'ไม่เท่ากับ'?",
+            "options": [
+                "!=",
+                "<>",
+                "not=",
+                "~="
+            ],
+            "answer": "!="
+        },
+        {
+            "question": "ข้อใดคือผลลัพธ์ของ 10 % 3 (หารเอาเศษ)?",
+            "options": [
+                "1",
+                "3",
+                "0",
+                "10"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "เครื่องหมายใดใช้สำหรับการยกกำลังใน Python?",
+            "options": [
+                "**",
+                "^",
+                "pow",
+                "//"
+            ],
+            "answer": "**"
+        },
+        {
+            "question": "เครื่องหมายใดใช้หารเอาส่วน (หารไม่เอาเศษ)?",
+            "options": [
+                "//",
+                "/",
+                "%",
+                "**"
+            ],
+            "answer": "//"
+        },
+        {
+            "question": "หาก x = 5 แล้วใช้คำสั่ง x += 3 ค่า x จะกลายเป็นเท่าใด?",
+            "options": [
+                "8",
+                "5",
+                "3",
+                "15"
+            ],
+            "answer": "8"
+        },
+        {
+            "question": "ข้อใดคือตัวดำเนินการทางตรรกศาสตร์ (Logical Operator) ทั้งหมดใน Python?",
+            "options": [
+                "and, or, not",
+                "&&, ||, !",
+                "&, |, ~",
+                "True, False, None"
+            ],
+            "answer": "and, or, not"
+        },
+        {
+            "question": "ผลลัพธ์ของ True and False คืออะไร?",
+            "options": [
+                "False",
+                "True",
+                "None",
+                "Error"
+            ],
+            "answer": "False"
+        },
+        {
+            "question": "การสร้าง List ใน Python ต้องใช้สัญลักษณ์ใด?",
+            "options": [
+                "[]",
+                "()",
+                "{}",
+                "<>"
+            ],
+            "answer": "[]"
+        },
+        {
+            "question": "จาก my_list = ['apple', 'banana', 'cherry'] คำสั่งใดใช้ดึงค่า 'banana'?",
+            "options": [
+                "my_list[1]",
+                "my_list[2]",
+                "my_list('banana')",
+                "my_list[0]"
+            ],
+            "answer": "my_list[1]"
+        },
+        {
+            "question": "คำสั่งใดใช้เพิ่มข้อมูลต่อท้ายใน List?",
+            "options": [
+                "append()",
+                "add()",
+                "insert()",
+                "push()"
+            ],
+            "answer": "append()"
+        },
+        {
+            "question": "คำสั่งใดใช้หาจำนวนสมาชิกใน List?",
+            "options": [
+                "len()",
+                "size()",
+                "count()",
+                "length()"
+            ],
+            "answer": "len()"
+        },
+        {
+            "question": "เราสามารถแก้ไขข้อมูลสมาชิกที่อยู่ใน List ได้หรือไม่?",
+            "options": [
+                "ได้ (Mutable)",
+                "ไม่ได้ (Immutable)",
+                "ได้เฉพาะตัวเลข",
+                "ได้เฉพาะข้อความ"
+            ],
+            "answer": "ได้ (Mutable)"
+        },
+        {
+            "question": "คำสั่งใดใช้ลบข้อมูล 'apple' ออกจาก List?",
+            "options": [
+                "remove('apple')",
+                "delete('apple')",
+                "pop('apple')",
+                "discard('apple')"
+            ],
+            "answer": "remove('apple')"
+        },
+        {
+            "question": "คำสั่งใดใช้เรียงลำดับข้อมูลใน List จากน้อยไปมาก?",
+            "options": [
+                "sort()",
+                "order()",
+                "arrange()",
+                "align()"
+            ],
+            "answer": "sort()"
+        },
+        {
+            "question": "คำสั่ง while จะทำงานซ้ำไปเรื่อยๆ เมื่อเงื่อนไขเป็นอะไร?",
+            "options": [
+                "True",
+                "False",
+                "None",
+                "0"
+            ],
+            "answer": "True"
+        },
+        {
+            "question": "คำสั่งใดใช้หยุดการทำงานของลูปทันที (ออกจากลูป)?",
+            "options": [
+                "break",
+                "stop",
+                "exit",
+                "quit"
+            ],
+            "answer": "break"
+        },
+        {
+            "question": "คำสั่งใดใช้ข้ามการทำงานรอบปัจจุบัน แล้วข้ามไปทำรอบถัดไปของลูป?",
+            "options": [
+                "continue",
+                "skip",
+                "pass",
+                "next"
+            ],
+            "answer": "continue"
+        },
+        {
+            "question": "โครงสร้าง for loop ใน Python นิยมใช้ร่วมกับคำสั่งใดในการวนลูปตัวเลข?",
+            "options": [
+                "range()",
+                "number()",
+                "count()",
+                "loop()"
+            ],
+            "answer": "range()"
+        },
+        {
+            "question": "การเขียนคำสั่ง range(5) จะสร้างลำดับตัวเลขใดบ้าง?",
+            "options": [
+                "0, 1, 2, 3, 4",
+                "1, 2, 3, 4, 5",
+                "0, 1, 2, 3, 4, 5",
+                "1, 2, 3, 4"
+            ],
+            "answer": "0, 1, 2, 3, 4"
+        },
+        {
+            "question": "คำสั่งใดใช้สำหรับวนลูปอ่านข้อมูลทีละตัวใน List ชื่อ my_list?",
+            "options": [
+                "for x in my_list:",
+                "while x in my_list:",
+                "loop my_list:",
+                "foreach x in my_list:"
+            ],
+            "answer": "for x in my_list:"
+        },
+        {
+            "question": "ลูปใดเหมาะกับการวนซ้ำเมื่อ 'ไม่ทราบ' จำนวนรอบที่แน่นอน?",
+            "options": [
+                "while loop",
+                "for loop",
+                "do-while loop",
+                "foreach loop"
+            ],
+            "answer": "while loop"
+        },
+        {
+            "question": "คำหลัก (Keyword) ใดใช้สำหรับสร้างฟังก์ชันใน Python?",
+            "options": [
+                "def",
+                "function",
+                "func",
+                "create"
+            ],
+            "answer": "def"
+        },
+        {
+            "question": "ข้อใดคือวิธีการเรียกใช้งานฟังก์ชันที่ชื่อ my_func อย่างถูกต้อง?",
+            "options": [
+                "my_func()",
+                "call my_func()",
+                "run my_func",
+                "my_func"
+            ],
+            "answer": "my_func()"
+        },
+        {
+            "question": "คำสั่งใดใช้สำหรับส่งค่ากลับ (Return Value) ออกจากฟังก์ชัน?",
+            "options": [
+                "return",
+                "output",
+                "send",
+                "yield"
+            ],
+            "answer": "return"
+        },
+        {
+            "question": "ตัวแปรที่รับค่าเข้ามาใช้งานในฟังก์ชันเรียกว่าอะไร?",
+            "options": [
+                "Parameter / Argument",
+                "Global Variable",
+                "Return Variable",
+                "Class"
+            ],
+            "answer": "Parameter / Argument"
+        },
+        {
+            "question": "ฟังก์ชันใน Python สามารถไม่รับค่าพารามิเตอร์เลยได้หรือไม่?",
+            "options": [
+                "ได้",
+                "ไม่ได้ ต้องรับอย่างน้อย 1 ตัว",
+                "ไม่ได้ ต้องรับเฉพาะตัวเลข",
+                "ไม่ได้ ต้องรับเฉพาะข้อความ"
+            ],
+            "answer": "ได้"
+        },
+        {
+            "question": "คำสั่งใดใช้สำหรับนำเข้าโมดูล (Module) อื่นเข้ามาใช้งาน?",
+            "options": [
+                "import",
+                "include",
+                "require",
+                "using"
+            ],
+            "answer": "import"
+        },
+        {
+            "question": "หากต้องการใช้งานเกี่ยวกับการสุ่มตัวเลข ต้องนำเข้าโมดูลใด?",
+            "options": [
+                "random",
+                "math",
+                "numbers",
+                "os"
+            ],
+            "answer": "random"
+        },
+        {
+            "question": "หากต้องการใช้งานเกี่ยวกับวันที่และเวลา ต้องนำเข้าโมดูลใด?",
+            "options": [
+                "datetime",
+                "time",
+                "date",
+                "clock"
+            ],
+            "answer": "datetime"
+        },
+        {
+            "question": "การเขียนคอมเมนต์ (Comment) แบบบรรทัดเดียว ต้องใช้สัญลักษณ์ใดใน Python?",
+            "options": [
+                "#",
+                "//",
+                "/*",
+                "<!--"
+            ],
+            "answer": "#"
+        },
+        {
+            "question": "บล็อกคำสั่ง (Block of code) ขอบเขตการทำงานใน Python ใช้สิ่งใดเป็นตัวกำหนด?",
+            "options": [
+                "การย่อหน้า (Indentation)",
+                "ปีกกา {}",
+                "วงเล็บ ()",
+                "เครื่องหมายเซมิโคลอน ;"
+            ],
+            "answer": "การย่อหน้า (Indentation)"
+        }
+    ],
+    "set_2": [
+        {
+            "question": "คำสั่งใดใช้สร้างตัวแปรเก็บข้อความ 'Hello'?",
+            "options": [
+                "x = 'Hello'",
+                "string x = 'Hello'",
+                "var x = 'Hello'",
+                "let x = 'Hello'"
+            ],
+            "answer": "x = 'Hello'"
+        },
+        {
+            "question": "กฏการตั้งชื่อตัวแปรข้อใดถูกต้อง?",
+            "options": [
+                "my_var = 10",
+                "my-var = 10",
+                "10myvar = 10",
+                "my var = 10"
+            ],
+            "answer": "my_var = 10"
+        },
+        {
+            "question": "ข้อใดตั้งชื่อตัวแปรผิดกฏของภาษา Python?",
+            "options": [
+                "1myvar = 10",
+                "_myvar = 10",
+                "myVar = 10",
+                "my_var1 = 10"
+            ],
+            "answer": "1myvar = 10"
+        },
+        {
+            "question": "ประเภทข้อมูล (Data Type) ของตัวเลขจำนวนเต็มคือข้อใด?",
+            "options": [
+                "int",
+                "float",
+                "str",
+                "bool"
+            ],
+            "answer": "int"
+        },
+        {
+            "question": "ประเภทข้อมูลใดใช้เก็บตัวอักษรหรือข้อความ?",
+            "options": [
+                "str",
+                "char",
+                "text",
+                "string"
+            ],
+            "answer": "str"
+        },
+        {
+            "question": "คำสั่งใดใช้ตรวจสอบประเภทข้อมูล (Data Type) ของตัวแปร?",
+            "options": [
+                "type()",
+                "check()",
+                "typeof()",
+                "datatype()"
+            ],
+            "answer": "type()"
+        },
+        {
+            "question": "ข้อใดคือประเภทข้อมูลแบบทศนิยม (Float)?",
+            "options": [
+                "3.14",
+                "3",
+                "'3.14'",
+                "True"
+            ],
+            "answer": "3.14"
+        },
+        {
+            "question": "ตัวแปรใน Python สามารถเปลี่ยนประเภทข้อมูลระหว่างการทำงานได้หรือไม่?",
+            "options": [
+                "ได้ (Dynamic Typing)",
+                "ไม่ได้ ต้องกำหนดตั้งแต่เริ่ม",
+                "ได้เฉพาะตัวเลข",
+                "ได้เฉพาะข้อความ"
+            ],
+            "answer": "ได้ (Dynamic Typing)"
+        },
+        {
+            "question": "ตัวอักษรและข้อความใน Python ต้องถูกครอบด้วยเครื่องหมายใด?",
+            "options": [
+                "\"\" หรือ ''",
+                "()",
+                "[]",
+                "{}"
+            ],
+            "answer": "\"\" หรือ ''"
+        },
+        {
+            "question": "คำสั่ง print() ทำหน้าที่อะไร?",
+            "options": [
+                "แสดงผลข้อมูลออกทางหน้าจอ",
+                "รับค่าจากคีย์บอร์ด",
+                "หยุดการทำงานของโปรแกรม",
+                "คำนวณตัวเลข"
+            ],
+            "answer": "แสดงผลข้อมูลออกทางหน้าจอ"
+        },
+        {
+            "question": "ข้อใดคือผลลัพธ์ของ int(3.9)?",
+            "options": [
+                "3",
+                "4",
+                "3.9",
+                "Error"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "ข้อใดคือผลลัพธ์ของ float(5)?",
+            "options": [
+                "5.0",
+                "5",
+                "'5'",
+                "5.5"
+            ],
+            "answer": "5.0"
+        },
+        {
+            "question": "ข้อใดคือการแปลงตัวเลข 10 เป็นประเภทข้อความ (String)?",
+            "options": [
+                "str(10)",
+                "int(10)",
+                "text(10)",
+                "char(10)"
+            ],
+            "answer": "str(10)"
+        },
+        {
+            "question": "หากเรานำ '5' + '5' ใน Python จะได้ผลลัพธ์คืออะไร?",
+            "options": [
+                "'55'",
+                "10",
+                "55",
+                "Error"
+            ],
+            "answer": "'55'"
+        },
+        {
+            "question": "คำสั่งใดใช้แปลงข้อความ '100' เป็นตัวเลขจำนวนเต็ม?",
+            "options": [
+                "int('100')",
+                "float('100')",
+                "number('100')",
+                "str('100')"
+            ],
+            "answer": "int('100')"
+        },
+        {
+            "question": "ชนิดข้อมูลของ 5j ใน Python คือประเภทใด?",
+            "options": [
+                "complex",
+                "float",
+                "int",
+                "str"
+            ],
+            "answer": "complex"
+        },
+        {
+            "question": "ค่าข้อมูลแบบ Boolean มีกี่ค่า และคืออะไรบ้าง?",
+            "options": [
+                "2 ค่า คือ True และ False",
+                "2 ค่า คือ 0 และ 1",
+                "3 ค่า คือ True, False และ None",
+                "ไม่มีข้อถูก"
+            ],
+            "answer": "2 ค่า คือ True และ False"
+        },
+        {
+            "question": "ผลลัพธ์ของการเปรียบเทียบ 10 > 9 คืออะไร?",
+            "options": [
+                "True",
+                "False",
+                "1",
+                "0"
+            ],
+            "answer": "True"
+        },
+        {
+            "question": "ผลลัพธ์ของการเปรียบเทียบ 10 == 10 คืออะไร?",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "No"
+            ],
+            "answer": "True"
+        },
+        {
+            "question": "เครื่องหมายใดใช้สำหรับการเปรียบเทียบว่า 'ไม่เท่ากับ'?",
+            "options": [
+                "!=",
+                "<>",
+                "not=",
+                "~="
+            ],
+            "answer": "!="
+        },
+        {
+            "question": "ข้อใดคือผลลัพธ์ของ 10 % 3 (หารเอาเศษ)?",
+            "options": [
+                "1",
+                "3",
+                "0",
+                "10"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "เครื่องหมายใดใช้สำหรับการยกกำลังใน Python?",
+            "options": [
+                "**",
+                "^",
+                "pow",
+                "//"
+            ],
+            "answer": "**"
+        },
+        {
+            "question": "เครื่องหมายใดใช้หารเอาส่วน (หารไม่เอาเศษ)?",
+            "options": [
+                "//",
+                "/",
+                "%",
+                "**"
+            ],
+            "answer": "//"
+        },
+        {
+            "question": "หาก x = 5 แล้วใช้คำสั่ง x += 3 ค่า x จะกลายเป็นเท่าใด?",
+            "options": [
+                "8",
+                "5",
+                "3",
+                "15"
+            ],
+            "answer": "8"
+        },
+        {
+            "question": "ข้อใดคือตัวดำเนินการทางตรรกศาสตร์ (Logical Operator) ทั้งหมดใน Python?",
+            "options": [
+                "and, or, not",
+                "&&, ||, !",
+                "&, |, ~",
+                "True, False, None"
+            ],
+            "answer": "and, or, not"
+        },
+        {
+            "question": "ผลลัพธ์ของ True and False คืออะไร?",
+            "options": [
+                "False",
+                "True",
+                "None",
+                "Error"
+            ],
+            "answer": "False"
+        },
+        {
+            "question": "การสร้าง List ใน Python ต้องใช้สัญลักษณ์ใด?",
+            "options": [
+                "[]",
+                "()",
+                "{}",
+                "<>"
+            ],
+            "answer": "[]"
+        },
+        {
+            "question": "จาก my_list = ['apple', 'banana', 'cherry'] คำสั่งใดใช้ดึงค่า 'banana'?",
+            "options": [
+                "my_list[1]",
+                "my_list[2]",
+                "my_list('banana')",
+                "my_list[0]"
+            ],
+            "answer": "my_list[1]"
+        },
+        {
+            "question": "คำสั่งใดใช้เพิ่มข้อมูลต่อท้ายใน List?",
+            "options": [
+                "append()",
+                "add()",
+                "insert()",
+                "push()"
+            ],
+            "answer": "append()"
+        },
+        {
+            "question": "คำสั่งใดใช้หาจำนวนสมาชิกใน List?",
+            "options": [
+                "len()",
+                "size()",
+                "count()",
+                "length()"
+            ],
+            "answer": "len()"
+        },
+        {
+            "question": "เราสามารถแก้ไขข้อมูลสมาชิกที่อยู่ใน List ได้หรือไม่?",
+            "options": [
+                "ได้ (Mutable)",
+                "ไม่ได้ (Immutable)",
+                "ได้เฉพาะตัวเลข",
+                "ได้เฉพาะข้อความ"
+            ],
+            "answer": "ได้ (Mutable)"
+        },
+        {
+            "question": "คำสั่งใดใช้ลบข้อมูล 'apple' ออกจาก List?",
+            "options": [
+                "remove('apple')",
+                "delete('apple')",
+                "pop('apple')",
+                "discard('apple')"
+            ],
+            "answer": "remove('apple')"
+        },
+        {
+            "question": "คำสั่งใดใช้เรียงลำดับข้อมูลใน List จากน้อยไปมาก?",
+            "options": [
+                "sort()",
+                "order()",
+                "arrange()",
+                "align()"
+            ],
+            "answer": "sort()"
+        },
+        {
+            "question": "คำสั่ง while จะทำงานซ้ำไปเรื่อยๆ เมื่อเงื่อนไขเป็นอะไร?",
+            "options": [
+                "True",
+                "False",
+                "None",
+                "0"
+            ],
+            "answer": "True"
+        },
+        {
+            "question": "คำสั่งใดใช้หยุดการทำงานของลูปทันที (ออกจากลูป)?",
+            "options": [
+                "break",
+                "stop",
+                "exit",
+                "quit"
+            ],
+            "answer": "break"
+        },
+        {
+            "question": "คำสั่งใดใช้ข้ามการทำงานรอบปัจจุบัน แล้วข้ามไปทำรอบถัดไปของลูป?",
+            "options": [
+                "continue",
+                "skip",
+                "pass",
+                "next"
+            ],
+            "answer": "continue"
+        },
+        {
+            "question": "โครงสร้าง for loop ใน Python นิยมใช้ร่วมกับคำสั่งใดในการวนลูปตัวเลข?",
+            "options": [
+                "range()",
+                "number()",
+                "count()",
+                "loop()"
+            ],
+            "answer": "range()"
+        },
+        {
+            "question": "การเขียนคำสั่ง range(5) จะสร้างลำดับตัวเลขใดบ้าง?",
+            "options": [
+                "0, 1, 2, 3, 4",
+                "1, 2, 3, 4, 5",
+                "0, 1, 2, 3, 4, 5",
+                "1, 2, 3, 4"
+            ],
+            "answer": "0, 1, 2, 3, 4"
+        },
+        {
+            "question": "คำสั่งใดใช้สำหรับวนลูปอ่านข้อมูลทีละตัวใน List ชื่อ my_list?",
+            "options": [
+                "for x in my_list:",
+                "while x in my_list:",
+                "loop my_list:",
+                "foreach x in my_list:"
+            ],
+            "answer": "for x in my_list:"
+        },
+        {
+            "question": "ลูปใดเหมาะกับการวนซ้ำเมื่อ 'ไม่ทราบ' จำนวนรอบที่แน่นอน?",
+            "options": [
+                "while loop",
+                "for loop",
+                "do-while loop",
+                "foreach loop"
+            ],
+            "answer": "while loop"
+        },
+        {
+            "question": "คำหลัก (Keyword) ใดใช้สำหรับสร้างฟังก์ชันใน Python?",
+            "options": [
+                "def",
+                "function",
+                "func",
+                "create"
+            ],
+            "answer": "def"
+        },
+        {
+            "question": "ข้อใดคือวิธีการเรียกใช้งานฟังก์ชันที่ชื่อ my_func อย่างถูกต้อง?",
+            "options": [
+                "my_func()",
+                "call my_func()",
+                "run my_func",
+                "my_func"
+            ],
+            "answer": "my_func()"
+        },
+        {
+            "question": "คำสั่งใดใช้สำหรับส่งค่ากลับ (Return Value) ออกจากฟังก์ชัน?",
+            "options": [
+                "return",
+                "output",
+                "send",
+                "yield"
+            ],
+            "answer": "return"
+        },
+        {
+            "question": "ตัวแปรที่รับค่าเข้ามาใช้งานในฟังก์ชันเรียกว่าอะไร?",
+            "options": [
+                "Parameter / Argument",
+                "Global Variable",
+                "Return Variable",
+                "Class"
+            ],
+            "answer": "Parameter / Argument"
+        },
+        {
+            "question": "ฟังก์ชันใน Python สามารถไม่รับค่าพารามิเตอร์เลยได้หรือไม่?",
+            "options": [
+                "ได้",
+                "ไม่ได้ ต้องรับอย่างน้อย 1 ตัว",
+                "ไม่ได้ ต้องรับเฉพาะตัวเลข",
+                "ไม่ได้ ต้องรับเฉพาะข้อความ"
+            ],
+            "answer": "ได้"
+        },
+        {
+            "question": "คำสั่งใดใช้สำหรับนำเข้าโมดูล (Module) อื่นเข้ามาใช้งาน?",
+            "options": [
+                "import",
+                "include",
+                "require",
+                "using"
+            ],
+            "answer": "import"
+        },
+        {
+            "question": "หากต้องการใช้งานเกี่ยวกับการสุ่มตัวเลข ต้องนำเข้าโมดูลใด?",
+            "options": [
+                "random",
+                "math",
+                "numbers",
+                "os"
+            ],
+            "answer": "random"
+        },
+        {
+            "question": "หากต้องการใช้งานเกี่ยวกับวันที่และเวลา ต้องนำเข้าโมดูลใด?",
+            "options": [
+                "datetime",
+                "time",
+                "date",
+                "clock"
+            ],
+            "answer": "datetime"
+        },
+        {
+            "question": "การเขียนคอมเมนต์ (Comment) แบบบรรทัดเดียว ต้องใช้สัญลักษณ์ใดใน Python?",
+            "options": [
+                "#",
+                "//",
+                "/*",
+                "<!--"
+            ],
+            "answer": "#"
+        },
+        {
+            "question": "บล็อกคำสั่ง (Block of code) ขอบเขตการทำงานใน Python ใช้สิ่งใดเป็นตัวกำหนด?",
+            "options": [
+                "การย่อหน้า (Indentation)",
+                "ปีกกา {}",
+                "วงเล็บ ()",
+                "เครื่องหมายเซมิโคลอน ;"
+            ],
+            "answer": "การย่อหน้า (Indentation)"
+        }
+    ],
+    "set_3": [
+        {
+            "question": "คำสั่งใดใช้สร้างตัวแปรเก็บข้อความ 'Hello'?",
+            "options": [
+                "x = 'Hello'",
+                "string x = 'Hello'",
+                "var x = 'Hello'",
+                "let x = 'Hello'"
+            ],
+            "answer": "x = 'Hello'"
+        },
+        {
+            "question": "กฏการตั้งชื่อตัวแปรข้อใดถูกต้อง?",
+            "options": [
+                "my_var = 10",
+                "my-var = 10",
+                "10myvar = 10",
+                "my var = 10"
+            ],
+            "answer": "my_var = 10"
+        },
+        {
+            "question": "ข้อใดตั้งชื่อตัวแปรผิดกฏของภาษา Python?",
+            "options": [
+                "1myvar = 10",
+                "_myvar = 10",
+                "myVar = 10",
+                "my_var1 = 10"
+            ],
+            "answer": "1myvar = 10"
+        },
+        {
+            "question": "ประเภทข้อมูล (Data Type) ของตัวเลขจำนวนเต็มคือข้อใด?",
+            "options": [
+                "int",
+                "float",
+                "str",
+                "bool"
+            ],
+            "answer": "int"
+        },
+        {
+            "question": "ประเภทข้อมูลใดใช้เก็บตัวอักษรหรือข้อความ?",
+            "options": [
+                "str",
+                "char",
+                "text",
+                "string"
+            ],
+            "answer": "str"
+        },
+        {
+            "question": "คำสั่งใดใช้ตรวจสอบประเภทข้อมูล (Data Type) ของตัวแปร?",
+            "options": [
+                "type()",
+                "check()",
+                "typeof()",
+                "datatype()"
+            ],
+            "answer": "type()"
+        },
+        {
+            "question": "ข้อใดคือประเภทข้อมูลแบบทศนิยม (Float)?",
+            "options": [
+                "3.14",
+                "3",
+                "'3.14'",
+                "True"
+            ],
+            "answer": "3.14"
+        },
+        {
+            "question": "ตัวแปรใน Python สามารถเปลี่ยนประเภทข้อมูลระหว่างการทำงานได้หรือไม่?",
+            "options": [
+                "ได้ (Dynamic Typing)",
+                "ไม่ได้ ต้องกำหนดตั้งแต่เริ่ม",
+                "ได้เฉพาะตัวเลข",
+                "ได้เฉพาะข้อความ"
+            ],
+            "answer": "ได้ (Dynamic Typing)"
+        },
+        {
+            "question": "ตัวอักษรและข้อความใน Python ต้องถูกครอบด้วยเครื่องหมายใด?",
+            "options": [
+                "\"\" หรือ ''",
+                "()",
+                "[]",
+                "{}"
+            ],
+            "answer": "\"\" หรือ ''"
+        },
+        {
+            "question": "คำสั่ง print() ทำหน้าที่อะไร?",
+            "options": [
+                "แสดงผลข้อมูลออกทางหน้าจอ",
+                "รับค่าจากคีย์บอร์ด",
+                "หยุดการทำงานของโปรแกรม",
+                "คำนวณตัวเลข"
+            ],
+            "answer": "แสดงผลข้อมูลออกทางหน้าจอ"
+        },
+        {
+            "question": "ข้อใดคือผลลัพธ์ของ int(3.9)?",
+            "options": [
+                "3",
+                "4",
+                "3.9",
+                "Error"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "ข้อใดคือผลลัพธ์ของ float(5)?",
+            "options": [
+                "5.0",
+                "5",
+                "'5'",
+                "5.5"
+            ],
+            "answer": "5.0"
+        },
+        {
+            "question": "ข้อใดคือการแปลงตัวเลข 10 เป็นประเภทข้อความ (String)?",
+            "options": [
+                "str(10)",
+                "int(10)",
+                "text(10)",
+                "char(10)"
+            ],
+            "answer": "str(10)"
+        },
+        {
+            "question": "หากเรานำ '5' + '5' ใน Python จะได้ผลลัพธ์คืออะไร?",
+            "options": [
+                "'55'",
+                "10",
+                "55",
+                "Error"
+            ],
+            "answer": "'55'"
+        },
+        {
+            "question": "คำสั่งใดใช้แปลงข้อความ '100' เป็นตัวเลขจำนวนเต็ม?",
+            "options": [
+                "int('100')",
+                "float('100')",
+                "number('100')",
+                "str('100')"
+            ],
+            "answer": "int('100')"
+        },
+        {
+            "question": "ชนิดข้อมูลของ 5j ใน Python คือประเภทใด?",
+            "options": [
+                "complex",
+                "float",
+                "int",
+                "str"
+            ],
+            "answer": "complex"
+        },
+        {
+            "question": "ค่าข้อมูลแบบ Boolean มีกี่ค่า และคืออะไรบ้าง?",
+            "options": [
+                "2 ค่า คือ True และ False",
+                "2 ค่า คือ 0 และ 1",
+                "3 ค่า คือ True, False และ None",
+                "ไม่มีข้อถูก"
+            ],
+            "answer": "2 ค่า คือ True และ False"
+        },
+        {
+            "question": "ผลลัพธ์ของการเปรียบเทียบ 10 > 9 คืออะไร?",
+            "options": [
+                "True",
+                "False",
+                "1",
+                "0"
+            ],
+            "answer": "True"
+        },
+        {
+            "question": "ผลลัพธ์ของการเปรียบเทียบ 10 == 10 คืออะไร?",
+            "options": [
+                "True",
+                "False",
+                "Yes",
+                "No"
+            ],
+            "answer": "True"
+        },
+        {
+            "question": "เครื่องหมายใดใช้สำหรับการเปรียบเทียบว่า 'ไม่เท่ากับ'?",
+            "options": [
+                "!=",
+                "<>",
+                "not=",
+                "~="
+            ],
+            "answer": "!="
+        },
+        {
+            "question": "ข้อใดคือผลลัพธ์ของ 10 % 3 (หารเอาเศษ)?",
+            "options": [
+                "1",
+                "3",
+                "0",
+                "10"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "เครื่องหมายใดใช้สำหรับการยกกำลังใน Python?",
+            "options": [
+                "**",
+                "^",
+                "pow",
+                "//"
+            ],
+            "answer": "**"
+        },
+        {
+            "question": "เครื่องหมายใดใช้หารเอาส่วน (หารไม่เอาเศษ)?",
+            "options": [
+                "//",
+                "/",
+                "%",
+                "**"
+            ],
+            "answer": "//"
+        },
+        {
+            "question": "หาก x = 5 แล้วใช้คำสั่ง x += 3 ค่า x จะกลายเป็นเท่าใด?",
+            "options": [
+                "8",
+                "5",
+                "3",
+                "15"
+            ],
+            "answer": "8"
+        },
+        {
+            "question": "ข้อใดคือตัวดำเนินการทางตรรกศาสตร์ (Logical Operator) ทั้งหมดใน Python?",
+            "options": [
+                "and, or, not",
+                "&&, ||, !",
+                "&, |, ~",
+                "True, False, None"
+            ],
+            "answer": "and, or, not"
+        },
+        {
+            "question": "ผลลัพธ์ของ True and False คืออะไร?",
+            "options": [
+                "False",
+                "True",
+                "None",
+                "Error"
+            ],
+            "answer": "False"
+        },
+        {
+            "question": "การสร้าง List ใน Python ต้องใช้สัญลักษณ์ใด?",
+            "options": [
+                "[]",
+                "()",
+                "{}",
+                "<>"
+            ],
+            "answer": "[]"
+        },
+        {
+            "question": "จาก my_list = ['apple', 'banana', 'cherry'] คำสั่งใดใช้ดึงค่า 'banana'?",
+            "options": [
+                "my_list[1]",
+                "my_list[2]",
+                "my_list('banana')",
+                "my_list[0]"
+            ],
+            "answer": "my_list[1]"
+        },
+        {
+            "question": "คำสั่งใดใช้เพิ่มข้อมูลต่อท้ายใน List?",
+            "options": [
+                "append()",
+                "add()",
+                "insert()",
+                "push()"
+            ],
+            "answer": "append()"
+        },
+        {
+            "question": "คำสั่งใดใช้หาจำนวนสมาชิกใน List?",
+            "options": [
+                "len()",
+                "size()",
+                "count()",
+                "length()"
+            ],
+            "answer": "len()"
+        },
+        {
+            "question": "เราสามารถแก้ไขข้อมูลสมาชิกที่อยู่ใน List ได้หรือไม่?",
+            "options": [
+                "ได้ (Mutable)",
+                "ไม่ได้ (Immutable)",
+                "ได้เฉพาะตัวเลข",
+                "ได้เฉพาะข้อความ"
+            ],
+            "answer": "ได้ (Mutable)"
+        },
+        {
+            "question": "คำสั่งใดใช้ลบข้อมูล 'apple' ออกจาก List?",
+            "options": [
+                "remove('apple')",
+                "delete('apple')",
+                "pop('apple')",
+                "discard('apple')"
+            ],
+            "answer": "remove('apple')"
+        },
+        {
+            "question": "คำสั่งใดใช้เรียงลำดับข้อมูลใน List จากน้อยไปมาก?",
+            "options": [
+                "sort()",
+                "order()",
+                "arrange()",
+                "align()"
+            ],
+            "answer": "sort()"
+        },
+        {
+            "question": "คำสั่ง while จะทำงานซ้ำไปเรื่อยๆ เมื่อเงื่อนไขเป็นอะไร?",
+            "options": [
+                "True",
+                "False",
+                "None",
+                "0"
+            ],
+            "answer": "True"
+        },
+        {
+            "question": "คำสั่งใดใช้หยุดการทำงานของลูปทันที (ออกจากลูป)?",
+            "options": [
+                "break",
+                "stop",
+                "exit",
+                "quit"
+            ],
+            "answer": "break"
+        },
+        {
+            "question": "คำสั่งใดใช้ข้ามการทำงานรอบปัจจุบัน แล้วข้ามไปทำรอบถัดไปของลูป?",
+            "options": [
+                "continue",
+                "skip",
+                "pass",
+                "next"
+            ],
+            "answer": "continue"
+        },
+        {
+            "question": "โครงสร้าง for loop ใน Python นิยมใช้ร่วมกับคำสั่งใดในการวนลูปตัวเลข?",
+            "options": [
+                "range()",
+                "number()",
+                "count()",
+                "loop()"
+            ],
+            "answer": "range()"
+        },
+        {
+            "question": "การเขียนคำสั่ง range(5) จะสร้างลำดับตัวเลขใดบ้าง?",
+            "options": [
+                "0, 1, 2, 3, 4",
+                "1, 2, 3, 4, 5",
+                "0, 1, 2, 3, 4, 5",
+                "1, 2, 3, 4"
+            ],
+            "answer": "0, 1, 2, 3, 4"
+        },
+        {
+            "question": "คำสั่งใดใช้สำหรับวนลูปอ่านข้อมูลทีละตัวใน List ชื่อ my_list?",
+            "options": [
+                "for x in my_list:",
+                "while x in my_list:",
+                "loop my_list:",
+                "foreach x in my_list:"
+            ],
+            "answer": "for x in my_list:"
+        },
+        {
+            "question": "ลูปใดเหมาะกับการวนซ้ำเมื่อ 'ไม่ทราบ' จำนวนรอบที่แน่นอน?",
+            "options": [
+                "while loop",
+                "for loop",
+                "do-while loop",
+                "foreach loop"
+            ],
+            "answer": "while loop"
+        },
+        {
+            "question": "คำหลัก (Keyword) ใดใช้สำหรับสร้างฟังก์ชันใน Python?",
+            "options": [
+                "def",
+                "function",
+                "func",
+                "create"
+            ],
+            "answer": "def"
+        },
+        {
+            "question": "ข้อใดคือวิธีการเรียกใช้งานฟังก์ชันที่ชื่อ my_func อย่างถูกต้อง?",
+            "options": [
+                "my_func()",
+                "call my_func()",
+                "run my_func",
+                "my_func"
+            ],
+            "answer": "my_func()"
+        },
+        {
+            "question": "คำสั่งใดใช้สำหรับส่งค่ากลับ (Return Value) ออกจากฟังก์ชัน?",
+            "options": [
+                "return",
+                "output",
+                "send",
+                "yield"
+            ],
+            "answer": "return"
+        },
+        {
+            "question": "ตัวแปรที่รับค่าเข้ามาใช้งานในฟังก์ชันเรียกว่าอะไร?",
+            "options": [
+                "Parameter / Argument",
+                "Global Variable",
+                "Return Variable",
+                "Class"
+            ],
+            "answer": "Parameter / Argument"
+        },
+        {
+            "question": "ฟังก์ชันใน Python สามารถไม่รับค่าพารามิเตอร์เลยได้หรือไม่?",
+            "options": [
+                "ได้",
+                "ไม่ได้ ต้องรับอย่างน้อย 1 ตัว",
+                "ไม่ได้ ต้องรับเฉพาะตัวเลข",
+                "ไม่ได้ ต้องรับเฉพาะข้อความ"
+            ],
+            "answer": "ได้"
+        },
+        {
+            "question": "คำสั่งใดใช้สำหรับนำเข้าโมดูล (Module) อื่นเข้ามาใช้งาน?",
+            "options": [
+                "import",
+                "include",
+                "require",
+                "using"
+            ],
+            "answer": "import"
+        },
+        {
+            "question": "หากต้องการใช้งานเกี่ยวกับการสุ่มตัวเลข ต้องนำเข้าโมดูลใด?",
+            "options": [
+                "random",
+                "math",
+                "numbers",
+                "os"
+            ],
+            "answer": "random"
+        },
+        {
+            "question": "หากต้องการใช้งานเกี่ยวกับวันที่และเวลา ต้องนำเข้าโมดูลใด?",
+            "options": [
+                "datetime",
+                "time",
+                "date",
+                "clock"
+            ],
+            "answer": "datetime"
+        },
+        {
+            "question": "การเขียนคอมเมนต์ (Comment) แบบบรรทัดเดียว ต้องใช้สัญลักษณ์ใดใน Python?",
+            "options": [
+                "#",
+                "//",
+                "/*",
+                "<!--"
+            ],
+            "answer": "#"
+        },
+        {
+            "question": "บล็อกคำสั่ง (Block of code) ขอบเขตการทำงานใน Python ใช้สิ่งใดเป็นตัวกำหนด?",
+            "options": [
+                "การย่อหน้า (Indentation)",
+                "ปีกกา {}",
+                "วงเล็บ ()",
+                "เครื่องหมายเซมิโคลอน ;"
+            ],
+            "answer": "การย่อหน้า (Indentation)"
+        }
+    ]
+}
