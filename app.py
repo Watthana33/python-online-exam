@@ -55,7 +55,9 @@ def load_questions():
 def get_allowed_students():
     if os.path.exists(STUDENTS_FILE):
         df = pd.read_csv(STUDENTS_FILE)
-        df['student_id'] = df['student_id'].astype(str)
+        df['student_id'] = df['student_id'].astype(str).str.strip()
+        df['first_name'] = df['first_name'].astype(str).str.strip()
+        df['last_name'] = df['last_name'].astype(str).str.strip()
         return df
     return None
 
@@ -197,6 +199,10 @@ elif not st.session_state.logged_in:
         if not student_id or not first_name or not last_name:
             st.error("❌ กรุณากรอกข้อมูลให้ครบถ้วน")
         else:
+            student_id = student_id.strip()
+            first_name = first_name.strip()
+            last_name = last_name.strip()
+            
             df_students = get_allowed_students()
             is_allowed = False
             if df_students is not None:
