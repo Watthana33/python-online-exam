@@ -61,6 +61,23 @@ def get_allowed_students():
 
 @st.cache_resource
 def init_google_sheet():
+    # วิธีที่ 1: ดึงจาก Streamlit Secrets (สำหรับบน Cloud)
+    try:
+        if "gcp_service_account" in st.secrets:
+            # ตรวจสอบว่าเป็น string (JSON) หรือ Dictionary (TOML)
+            secret_val = st.secrets["gcp_service_account"]
+            if isinstance(secret_val, str):
+                creds_dict = json.loads(secret_val)
+            else:
+                creds_dict = dict(secret_val)
+            
+            client = gspread.service_account_from_dict(creds_dict)
+            return client.open(SHEET_NAME).sheet1
+    except Exception as e:
+        print(f"Error loading secrets: {e}")
+        pass
+
+    # วิธีที่ 2: ดึงจากไฟล์ service_account.json (สำหรับรันทดสอบในเครื่อง)
     if not os.path.exists(CREDENTIALS_FILE): return None
     try:
         client = gspread.service_account(filename=CREDENTIALS_FILE)

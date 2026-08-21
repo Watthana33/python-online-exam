@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+service_account.json
+g-service.txt
+local_scores.csv
+.env
