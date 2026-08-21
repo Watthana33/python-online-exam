@@ -5,7 +5,6 @@ import pandas as pd
 from datetime import datetime
 import os
 import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 import time
 import streamlit.components.v1 as components
 
@@ -62,11 +61,9 @@ def get_allowed_students():
 
 @st.cache_resource
 def init_google_sheet():
-    scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
     if not os.path.exists(CREDENTIALS_FILE): return None
     try:
-        creds = ServiceAccountCredentials.from_json_keyfile_name(CREDENTIALS_FILE, scope)
-        client = gspread.authorize(creds)
+        client = gspread.service_account(filename=CREDENTIALS_FILE)
         return client.open(SHEET_NAME).sheet1
     except Exception: return None
 
